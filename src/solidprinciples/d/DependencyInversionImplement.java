@@ -1,6 +1,5 @@
 package solidprinciples.d;
 
-import java.awt.*;
 
 public class DependencyInversionImplement {
 
