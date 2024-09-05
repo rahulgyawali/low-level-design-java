@@ -2,21 +2,40 @@ package solidprinciples.l;
 
 public class LisvokSubstitutionImplement {
 
-    interface Bike {
-        void turnOnEngine();
-        void accelerate();
+    /**
+     * Keep only the most common functionality on parent that gets replicated across the child classes
+     */
+    class Vehicle {
+
+        /**
+         *
+         * Wheel is common in all
+         */
+        public Integer getNumberOfWheels(){
+            return 2;
+        }
     }
 
-    class MotorCycle implements Bike {
-        boolean isEngineOn;
-        int speed;
-        @Override
-        public void turnOnEngine(){
-            this.isEngineOn = true;
+    class EngineVehicle extends Vehicle {
+
+        /**
+         * Engine is shared among the type of Vehicles
+         */
+
+        public boolean hasEngine(){
+            return true;
         }
-        @Override
-        public void accelerate(){
-            this.speed = this.speed + 1;
-        }
+    }
+
+    class Bicycle extends Vehicle {
+
+    }
+
+    class Car extends EngineVehicle {
+
+    }
+
+    class MotorCycle extends EngineVehicle {
+
     }
 }
