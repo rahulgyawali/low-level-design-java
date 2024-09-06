@@ -3,7 +3,7 @@ package designpatterns.creational.factory;
 /**
  * Object Creation based on Condition then use Factory Pattern
  *
- *          Shape Factory                           Shape
+ *          Shape Factory        HAS-A             Shape
  *         - Shape getFactory()  =======>       - void draw()
  *                                           ^       ^      ^
  *                                          /        |       \
