@@ -1,6 +1,8 @@
 # low-level-design-java
 LLD and Design Pattern Implementations
 
+#Solid Principles
+
 #Creational Patterns
 - Singleton 
 - Factory Method
