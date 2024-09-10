@@ -1,4 +1,4 @@
-package designpatterns.structural.composite.with;
+package designpatterns.structural.composite.with.filesystem;
 
 public class File implements FileSystem{
 
