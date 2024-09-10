@@ -20,7 +20,8 @@ LLD and Design Pattern Implementations
 - State
 
 #Structural Patterns
-- Adapter
+- Adapter 
+- Proxy
 - Facade
 - Decorator
 - Composite
