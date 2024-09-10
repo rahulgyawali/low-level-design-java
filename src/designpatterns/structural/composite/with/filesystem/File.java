@@ -1,5 +1,8 @@
 package designpatterns.structural.composite.with.filesystem;
 
+/**
+ * This is also called Leaf
+ */
 public class File implements FileSystem{
 
     String fileName;
