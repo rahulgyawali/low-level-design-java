@@ -12,14 +12,14 @@ public class EmployeeDaoProxy implements EmployeeDao{
         if(client.equals("ADMIN")){
             employeeDao.create(client,employeeDo);
         }
-        throw new Exception("Access Denied");
+        throw new Exception("Access Denied "+client);
     }
     @Override
     public void delete(String client, int employeeId) throws Exception{
         if(client.equals("ADMIN")){
             employeeDao.delete(client,employeeId);
         }
-        throw new Exception("Access Denied");
+        throw new Exception("Access Denied "+client);
 
     }
     @Override
@@ -27,6 +27,6 @@ public class EmployeeDaoProxy implements EmployeeDao{
         if(client.equals("ADMIN")){
             employeeDao.get(client,employeeId);
         }
-        throw new Exception("Access Denied");
+        throw new Exception("Access Denied for "+client);
     }
 }

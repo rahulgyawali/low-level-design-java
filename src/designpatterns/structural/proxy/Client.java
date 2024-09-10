@@ -1,6 +1,10 @@
 package designpatterns.structural.proxy;
 
 public class Client {
+    /**
+     *
+     * Can take care of only one class
+     */
     public static void main(String[] args) {
         try{
             EmployeeDaoProxy proxy = new EmployeeDaoProxy();
