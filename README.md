@@ -17,7 +17,8 @@ LLD and Design Pattern Implementations
 - Observer
 - Template Method
 - Command
-- State
+- State : Whenever there is a change in state and we can take only certain actions on that state. Example: ATM, Remote, Vending Machine
+- Chain of Responsibiliy: Whenver we are only concerned with getting response and not specify the handler. Example: Logging System
 
 #Structural Patterns
 - Adapter 
