@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32cfc40b-d03d-49eb-9e8f-a51a617d5262" name="Default Changelist" comment="" />
+    <list default="true" id="32cfc40b-d03d-49eb-9e8f-a51a617d5262" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioral/state/vendingmachine/Coin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioral/state/vendingmachine/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioral/state/vendingmachine/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioral/state/vendingmachine/ItemShelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioral/state/vendingmachine/ItemType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioral/state/vendingmachine/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioral/state/vendingmachine/VendingMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioral/state/vendingmachine/states/DispenseState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioral/state/vendingmachine/states/HasMoneyState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioral/state/vendingmachine/states/IdleState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioral/state/vendingmachine/states/SelectionState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioral/state/vendingmachine/states/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -28,6 +42,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="designpatterns.behavioral.state.vendingmachine" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
