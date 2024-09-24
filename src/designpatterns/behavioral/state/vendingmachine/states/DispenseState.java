@@ -34,10 +34,10 @@ public class DispenseState implements State{
     }
 
     @Override
-    public Item dispenseProduct(VendingMachine vendingMachine, Ite codeNumber) throws Exception{
+    public Item dispenseProduct(VendingMachine vendingMachine, int codeNumber) throws Exception{
         System.out.println("Code Number for Product is "+codeNumber);
-        vendingMachine.getInventory().getItemByCode()
-
+        Item item = vendingMachine.getInventory().getItemByCode(codeNumber);
+        return item;
     }
 
     @Override
