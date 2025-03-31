@@ -1,4 +1,4 @@
-package designexamples.pizza;
+package designexamples.pizza.withoutsides;
 
 import java.util.ArrayList;
 import java.util.List;

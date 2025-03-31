@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32cfc40b-d03d-49eb-9e8f-a51a617d5262" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/designexamples/pizza/withsides/PizzaWithSidesDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/low-level-design-java/designexamples/pizza/Base.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/low-level-design-java/designexamples/pizza/Ingredient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/low-level-design-java/designexamples/pizza/Pizza.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/low-level-design-java/designexamples/pizza/PizzaWithoutSidesDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/low-level-design-java/designexamples/pizza/Sauce.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/low-level-design-java/designexamples/pizza/Topping.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designexamples/pizza/PizzaWithoutSidesDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designexamples/pizza/withoutsides/PizzaWithoutSidesDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,35 +40,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.LogFilesDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ParkingLotDemo.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/rahulgyawali/Documents/GitHub/low-level-design-java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.LogFilesDemo.executor": "Run",
+    "Application.ParkingLotDemo.executor": "Run",
+    "Application.PizzaWithSidesDemo.executor": "Run",
+    "Application.PizzaWithoutSidesDemo.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/rahulgyawali/Documents/GitHub/low-level-design-java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="designpatterns.behavioral.state.vendingmachine" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PizzaWithoutSidesDemo">
-    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpatterns.structural.composite.with.calculator.Client" />
-      <module name="low-level-design-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="designpatterns.structural.composite.with.calculator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PizzaWithSidesDemo">
     <configuration name="LogFilesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="designexamples.logging.LogFilesDemo" />
       <module name="low-level-design-java" />
@@ -100,12 +97,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PizzaWithoutSidesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designexamples.pizza.PizzaWithoutSidesDemo" />
+    <configuration name="PizzaWithSidesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designexamples.pizza.withsides.PizzaWithSidesDemo" />
       <module name="low-level-design-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designexamples.pizza.*" />
+          <option name="PATTERN" value="designexamples.pizza.withsides.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PizzaWithoutSidesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designexamples.pizza.withoutsides.PizzaWithoutSidesDemo" />
+      <module name="low-level-design-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designexamples.pizza.withoutsides.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PizzaWithSidesDemo" />
         <item itemvalue="Application.PizzaWithoutSidesDemo" />
         <item itemvalue="Application.LogFilesDemo" />
         <item itemvalue="Application.ParkingLotDemo" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Client (1)" />
       </list>
     </recent_temporary>
   </component>
