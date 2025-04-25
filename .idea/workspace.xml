@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32cfc40b-d03d-49eb-9e8f-a51a617d5262" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/designexamples/pizza/withsides/PizzaWithSidesDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/strategy/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/strategy/FlyCannot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/strategy/FlyWithWings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/strategy/FlyingBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/strategy/MallardDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/strategy/QuackCannot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/strategy/QuackSqueak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/strategy/QuackingBehavior.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/low-level-design-java/designexamples/pizza/Base.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/low-level-design-java/designexamples/pizza/Ingredient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/low-level-design-java/designexamples/pizza/Pizza.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/low-level-design-java/designexamples/pizza/PizzaWithoutSidesDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/low-level-design-java/designexamples/pizza/Sauce.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/low-level-design-java/designexamples/pizza/Topping.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designexamples/pizza/PizzaWithoutSidesDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designexamples/pizza/withoutsides/PizzaWithoutSidesDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -42,6 +42,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Duck.executor": "Run",
     "Application.LogFilesDemo.executor": "Run",
     "Application.ParkingLotDemo.executor": "Run",
     "Application.PizzaWithSidesDemo.executor": "Run",
@@ -57,13 +58,13 @@
       <recent name="designpatterns.behavioral.state.vendingmachine" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PizzaWithSidesDemo">
-    <configuration name="LogFilesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designexamples.logging.LogFilesDemo" />
+  <component name="RunManager" selected="Application.Duck">
+    <configuration name="Duck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="headfirstdesignpatterns.strategy.Duck" />
       <module name="low-level-design-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designexamples.logging.*" />
+          <option name="PATTERN" value="headfirstdesignpatterns.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpatterns.behavioral.chainofresponsibility.Main" />
+    <configuration name="LogFilesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designexamples.logging.LogFilesDemo" />
       <module name="low-level-design-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designpatterns.behavioral.chainofresponsibility.*" />
+          <option name="PATTERN" value="designexamples.logging.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Duck" />
         <item itemvalue="Application.PizzaWithSidesDemo" />
         <item itemvalue="Application.PizzaWithoutSidesDemo" />
         <item itemvalue="Application.LogFilesDemo" />
         <item itemvalue="Application.ParkingLotDemo" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
