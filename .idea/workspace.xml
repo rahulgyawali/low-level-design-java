@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32cfc40b-d03d-49eb-9e8f-a51a617d5262" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/observer/CurrentConditionDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/observer/DisplayElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/observer/ForecastConditionDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/observer/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/observer/WeatherData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/observer/WeatherStation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="32cfc40b-d03d-49eb-9e8f-a51a617d5262" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
