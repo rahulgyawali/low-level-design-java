@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32cfc40b-d03d-49eb-9e8f-a51a617d5262" name="Default Changelist" comment="" />
+    <list default="true" id="32cfc40b-d03d-49eb-9e8f-a51a617d5262" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/decorator/BasePizaa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/decorator/ChickenPizaa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/decorator/ExtraCheese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/decorator/ExtraOlives.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/decorator/ExtraSauce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/decorator/MargaritaPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/decorator/PizzaMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/decorator/ToppingDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/decorator/VegPizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,25 +41,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Duck.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LogFilesDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ParkingLotDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PizzaWithSidesDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PizzaWithoutSidesDemo.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/rahulgyawali/Documents/GitHub/low-level-design-java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Duck.executor": "Run",
+    "Application.LogFilesDemo.executor": "Run",
+    "Application.ParkingLotDemo.executor": "Run",
+    "Application.PizzaMaker.executor": "Run",
+    "Application.PizzaWithSidesDemo.executor": "Run",
+    "Application.PizzaWithoutSidesDemo.executor": "Run",
+    "Application.WeatherStation.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/rahulgyawali/Documents/GitHub/low-level-design-java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="designpatterns.behavioral.state.vendingmachine" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WeatherStation">
+  <component name="RunManager" selected="Application.PizzaMaker">
     <configuration name="Duck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="headfirstdesignpatterns.strategy.Duck" />
       <module name="low-level-design-java" />
@@ -62,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogFilesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designexamples.logging.LogFilesDemo" />
+    <configuration name="PizzaMaker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="headfirstdesignpatterns.decorator.PizzaMaker" />
       <module name="low-level-design-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designexamples.logging.*" />
+          <option name="PATTERN" value="headfirstdesignpatterns.decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PizzaMaker" />
         <item itemvalue="Application.WeatherStation" />
         <item itemvalue="Application.Duck" />
         <item itemvalue="Application.PizzaWithSidesDemo" />
         <item itemvalue="Application.PizzaWithoutSidesDemo" />
-        <item itemvalue="Application.LogFilesDemo" />
       </list>
     </recent_temporary>
   </component>
