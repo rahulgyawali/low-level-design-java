@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32cfc40b-d03d-49eb-9e8f-a51a617d5262" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/factory/simple/BaconPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/factory/simple/CheesePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/factory/simple/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/factory/simple/MushroomPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/factory/simple/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/factory/simple/PizzaFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/factory/simple/PizzaStore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/headfirstdesignpatterns/decorator/ExtraCheese.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/decorator/ExtraCheese.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/headfirstdesignpatterns/decorator/ExtraOlives.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/decorator/ExtraOlives.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/headfirstdesignpatterns/decorator/ExtraSauce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/decorator/ExtraSauce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/headfirstdesignpatterns/decorator/PizzaMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirstdesignpatterns/decorator/PizzaMaker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +57,7 @@
       <recent name="designpatterns.behavioral.state.vendingmachine" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.PizzaMaker">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="headfirstdesignpatterns.factory.simple.Client" />
       <module name="low-level-design-java" />
@@ -128,8 +125,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client" />
         <item itemvalue="Application.PizzaMaker" />
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.WeatherStation" />
         <item itemvalue="Application.Duck" />
         <item itemvalue="Application.PizzaWithSidesDemo" />

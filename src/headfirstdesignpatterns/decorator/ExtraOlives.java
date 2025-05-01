@@ -8,6 +8,7 @@ public class ExtraOlives extends ToppingDecorator{
 
     @Override
     public int cost() {
+        System.out.println(">> Adding Cost for "+this.getClass().getSimpleName());
         return basePizza.cost()+10;
     }
 }
