@@ -3,11 +3,11 @@ package headfirstdesignpatterns.observer;
 public class CurrentConditionDisplay implements Observer,DisplayElement{
     private float temperature;
     private float humidity;
-    private Subject subject;
+    private Observable observable;
 
-    public CurrentConditionDisplay(Subject subject){
-        this.subject = subject;
-        this.subject.addObserver(this);
+    public CurrentConditionDisplay(Observable observable){
+        this.observable = observable;
+        this.observable.addObserver(this);
     }
 
     @Override

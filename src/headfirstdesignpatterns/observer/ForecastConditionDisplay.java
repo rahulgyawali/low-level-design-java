@@ -4,11 +4,11 @@ public class ForecastConditionDisplay implements DisplayElement,Observer{
     private float temperature;
     private float pressure;
     private float humidity;
-    private Subject subject;
+    private Observable observable;
 
-    public ForecastConditionDisplay(Subject subject){
-        this.subject = subject;
-        this.subject.addObserver(this);
+    public ForecastConditionDisplay(Observable observable){
+        this.observable = observable;
+        this.observable.addObserver(this);
     }
 
     @Override
