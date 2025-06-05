@@ -98,10 +98,10 @@ public class BookMyShow {
             booking.setSeatList(seatList);
             System.out.println("Booked for "+booking.getShow().startTime+" hours  "+booking.getShow().movie.movieTitle+" in "+booking.getSeatList().get(0).getSeatCategory().name());
         }else{
-            System.out.println("Seat Not available!");
+            System.out.println("***** Seat Not available! ***************");
             return;
         }
-        System.out.println("Booking Successful");
+        System.out.println("######## Booking Successful ###################");
     }
 
 
@@ -110,6 +110,7 @@ public class BookMyShow {
         createTheaters();
         show();
     }
+
     public static void main(String[] args) {
         BookMyShow bookMyShow = new BookMyShow();
         bookMyShow.init();

@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32cfc40b-d03d-49eb-9e8f-a51a617d5262" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/practice/booking/BookMyShow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/booking/Booking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/booking/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/booking/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/booking/MovieController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/booking/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/booking/Screen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/booking/Seat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/booking/SeatCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/booking/Show.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/booking/Theater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/booking/TheaterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="32cfc40b-d03d-49eb-9e8f-a51a617d5262" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
