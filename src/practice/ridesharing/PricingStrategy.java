@@ -1,5 +1,5 @@
 package practice.ridesharing;
 
-public abstract class PricingStrategy {
-    public abstract double price(double distance);
+public interface  PricingStrategy {
+    public  double calculatePrice(TripMetaData tripMetaData);
 }

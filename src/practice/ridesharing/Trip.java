@@ -1,35 +1,37 @@
 package practice.ridesharing;
 
-public class Trip {
+import designpatterns.behavioral.strategy.with.DrivingStrategy;
 
-    PricingFactory pricingFactory;
-    PricingStrategy pricingStrategy;
+public class Trip {
 
     int id;
     Driver driver;
     Rider rider;
     Location start;
     Location end;
-    double price;
-    double distance;
     Status status;
+    double price;
 
-    public Trip(Driver driver,Rider rider,Location start, Location end,RIDE ride){
-        this.id = (int)System.currentTimeMillis()%Integer.MAX_VALUE;
+    public Trip(int id,Driver driver,Rider rider,Location start, Location end,double price){
+        this.id = id;
         this.driver = driver;
         this.rider = rider;
         this.start = start;
         this.end = end;
-        this.distance = calculateDistance(start,end);
-        this.pricingStrategy = pricingFactory.getPricingStrategy(ride);
-        this.price = pricingStrategy.price(distance);
         this.status = Status.IN_PROGRESS;
+        this.price = price;
     }
 
-    public double calculateDistance(Location start,Location end){
-        double latDiff = Math.abs(start.lat-end.lat);
-        double lonDiff = Math.abs(end.log - start.log);
-        return (latDiff+lonDiff)*2.5;
+    @Override
+    public String toString() {
+        return "Trip{" +
+                "id=" + id +
+                ", driver=" + driver +
+                ", rider=" + rider +
+                ", start=" + start +
+                ", end=" + end +
+                ", status=" + status +
+                ", price=" + price +
+                '}';
     }
-
 }
