@@ -1,12 +1,8 @@
 package practice.state.vendinmachine;
 
-public class HasMoneyState implements State{
+public class HasMoneyState extends State{
     public HasMoneyState(){
         System.out.println("Vending machine in "+this.getClass().getSimpleName()+" state ");
-    }
-
-    public void selectInsertCoinButton(VendingMachine vendingMachine) throws Exception{
-        throw new Exception("Cannot perform this operation");
     }
     public void selectChooseProductButton(VendingMachine vendingMachine) throws Exception{
         vendingMachine.setState(new ChoosingProductState());
@@ -15,10 +11,5 @@ public class HasMoneyState implements State{
         //Insert money
         vendingMachine.getCoinList().add(coin);
     }
-    public void chooseProductAction(VendingMachine vendingMachine,int id) throws Exception{
-        throw new Exception("Cannot perform this operation");
-    }
-    public Item dispenseProduct(VendingMachine vendingMachine,int id) throws Exception{
-        throw new Exception("Cannot perform this operation");
-    }
+
 }
