@@ -5,31 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32cfc40b-d03d-49eb-9e8f-a51a617d5262" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/practice/chainofresponsbility/atm/ATMCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/chainofresponsbility/atm/ATMMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/chainofresponsbility/atm/ATMRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/chainofresponsbility/atm/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/chainofresponsbility/atm/DisplayBalanceState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/chainofresponsbility/atm/HasCardState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/chainofresponsbility/atm/IdleState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/chainofresponsbility/atm/Money.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/chainofresponsbility/atm/MoneyManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/chainofresponsbility/atm/SelectOperationState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/chainofresponsbility/atm/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/chainofresponsbility/atm/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/chainofresponsbility/atm/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/chainofresponsbility/atm/WithDrawBalanceState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/chainofresponsbility/atm/withdrawal/CashWithdrawProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/chainofresponsbility/atm/withdrawal/HundredWithdrawProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/chainofresponsbility/atm/withdrawal/TenWithdrawProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/chainofresponsbility/atm/withdrawal/ThousandWithdrawProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/elevator/Building.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/elevator/Direction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/elevator/Elevator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/elevator/ElevatorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/elevator/ElevatorRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/elevator/IMovementStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/elevator/ScanStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/elevator/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/parkinglot/ParkingLot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/parkinglot/ParkingSpot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/parkinglot/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/parkinglot/VehicleSize.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/low-level-design-java/practice/booking/BookMyShow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/low-level-design-java/practice/booking/BookMyShow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/state/vendinmachine/ChoosingProductState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/state/vendinmachine/ChoosingProductState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/state/vendinmachine/DispenseProductState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/state/vendinmachine/DispenseProductState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/state/vendinmachine/HasMoneyState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/state/vendinmachine/HasMoneyState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/state/vendinmachine/IdleState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/state/vendinmachine/IdleState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/state/vendinmachine/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/state/vendinmachine/State.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -56,34 +45,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ATMRoom.executor": "Run",
-    "Application.AbstractFactoryExample.executor": "Run",
-    "Application.BookMyShow.executor": "Run",
-    "Application.Client.executor": "Run",
-    "Application.DecoratorPatternExample.executor": "Run",
-    "Application.Duck.executor": "Run",
-    "Application.FactoryPatternExample.executor": "Run",
-    "Application.LogFilesDemo.executor": "Run",
-    "Application.ObserverPatternExample.executor": "Run",
-    "Application.ParkingLotDemo.executor": "Run",
-    "Application.PizzaMaker.executor": "Run",
-    "Application.PizzaWithSidesDemo.executor": "Run",
-    "Application.PizzaWithoutSidesDemo.executor": "Run",
-    "Application.StrategyPatternExample.executor": "Run",
-    "Application.Uber.executor": "Run",
-    "Application.WeatherStation.executor": "Run",
-    "Application.headfirstdesignpatterns.factory.abstracted.Client.executor": "Run",
-    "Application.practice.chainofresponsbility.logger.Client.executor": "Run",
-    "Application.practice.ratelimiter.Client.executor": "Run",
-    "Application.practice.state.vendinmachine.Client.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/rahulgyawali/Documents/GitHub/low-level-design-java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ATMRoom.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AbstractFactoryExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BookMyShow.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DecoratorPatternExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Duck.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FactoryPatternExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LogFilesDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ObserverPatternExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ParkingLotDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PizzaMaker.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PizzaWithSidesDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PizzaWithoutSidesDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StrategyPatternExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Uber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WeatherStation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.headfirstdesignpatterns.factory.abstracted.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.practice.chainofresponsbility.logger.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.practice.ratelimiter.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.practice.state.vendinmachine.Client.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/rahulgyawali/Documents/GitHub/low-level-design-java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="designpatterns.behavioral.state.vendingmachine" />
